@@ -10,16 +10,27 @@
 | Code       | Description                      |
 | ---------- | -------------------------------- |
 | 0000, 3368 | Factory Settings (Depends on FW) |
-| 0000120    | ???                              |
 | 0000121    | Boot Config Settings             |
 | 0000122    | Debug Settings                   |
-| 5555       | Wireless ADB                     |
-| 55550      | OFF OK (What is this?)           |
+| 5555       | Wireless ADB On                  |
+| 55550      | Wireledd ADB Off                 |
 | 55551      | OTG Host Mode                    |
 | 55552      | OTG Device Mode                  |
 | 99990      | VLog                             |
 | 99992      | Engineering Mode                 |
 | 99994      | MMI Test                         |
+
+**Note:** Codes can be derived by decompiling the `carSettings-gm-master.apk` file. They exist in the decompiled `./sources/android/car/app/setting/FactorySettingFragment.java` file.
+
+**PROCEED CAREFULLY:**
+
+| Unconfirmed Codes | Description             |
+| ----------------- | ----------------------- |
+| 102420483096      | Settings Debug          |
+| 101010            | Old App Settings        |
+| 147258            | Enable Remote Debugging |
+| 741852            | Close Remote Debugging  |
+| 3725              | Board Check             |
 
 # Boot Logo
 
@@ -116,14 +127,23 @@ See relevant files in the [Firmware Google Drive Subfolder](https://drive.google
 
 Alternatively, if you're soft-bricked (stuck in the boot screen), you should be able to do the same as above and restart the unit. The pinhole reset button did nothing for me. I had to remove the quadlock in the back and plug it back in to restart the unit.
 
+**NOTE:** If you want to format data on FW install, create a "ZQ_UPDATE_CONFIG" file (no extension) on the root of the USB Drive with the following contents:
+
+```
+format_data=1
+```
+
 ## Files
 
 The following has been confirmed working for me on an Erisin ES8559C.
 
 **NOTE:** I only use CarPlay, Radio, BT, WiFi - but those all worked fine.
 
-- `ZQ_A007_C56_HA11_U859-EN-D_2023-03-28-1635.zip`
-- `ZQ_A007_C56_HA5_U551-EN-D_2022-08-23-1720.zip`
+| Firmware                                         | Description                             |
+| ------------------------------------------------ | --------------------------------------- |
+| ZQ_A007_C55_HA4_U464-12-EN-D_2022-12-21-1826.zip | Stock Android 12 (received from Erisin) |
+| ZQ_A007_C56_HA11_U859-EN-D_2023-03-28-1635.zip   | 4PDA Forums                             |
+| ZQ_A007_C56_HA5_U551-EN-D_2022-08-23-1720.zip    | 4PDA Forums                             |
 
 # Miscellaneous Notes
 
