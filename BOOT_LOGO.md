@@ -1,6 +1,6 @@
 # Boot Logo
 
-See relevant files in the [BootLogo Google Drive Subfolder](https://drive.google.com/drive/folders/1MrPHdhb-9Hv6WGKhL2jqCdGr9AXF10k5?usp=share_link).
+See relevant files in the [BootLogo Google Drive Subfolder](https://drive.google.com/drive/folders/1EEuj-NBXf_svxSZv7MEPZRdVUHNSzBi2).
 
 **NOTE:**
 

@@ -41,6 +41,9 @@ p 0 0 p4
 ```
 # Generate Image Files From Video File
 ffmpeg -i ~/Desktop/black_main.mov ./p4/Image00%03d.jpg
+ffmpeg -i ../transition_cayman_s_white.mov -qscale:v 2 ./p4/Image00%03d.jpg
+
+ffmpeg -i ../transition_cayman_s_white.mov -vf scale=1024:600 -qscale:v 2 ./p4/Image00%03d.jpg
 
 # Zip Contents - You MUST use "store" compression (i.e. not compressing)
 zip -0qry -i \*.txt \*.png \*.wav \*.jpg @ ../new_boot_anim.zip *.txt p*

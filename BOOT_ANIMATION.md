@@ -1,6 +1,6 @@
 # Boot Animation
 
-See relevant files in the [BootAnimation Google Drive Subfolder](https://drive.google.com/drive/folders/1IrtB-HQWUK1TXJi2oPLXuqodUnlivZjw?usp=share_link).
+See relevant files in the [BootAnimation Google Drive Subfolder](https://drive.google.com/drive/folders/1UroSV4oSN-lE4AAuEHtG4k0LtD7xGy3C).
 
 ```
 # Replace 192.168.1.2 with the IP of the device

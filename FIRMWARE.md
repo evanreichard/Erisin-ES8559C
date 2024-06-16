@@ -1,6 +1,6 @@
 # Firmware
 
-See relevant files in the [Firmware Google Drive Subfolder](https://drive.google.com/drive/folders/16vZuCxMRC8vhnoHR3iDkOce6DdQ5e448?usp=share_link).
+See relevant files in the [Firmware Google Drive Subfolder](https://drive.google.com/drive/folders/1bqX4Np6y3dwlZJzJjDX7W-9x0ogPY_DB).
 
 ## Instructions
 
